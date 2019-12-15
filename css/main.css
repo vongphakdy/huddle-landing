@@ -9,6 +9,7 @@ html {
 
 body {
   background: #674baf url("../images/bg-mobile.svg") no-repeat;
+  background-size: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: white; }
