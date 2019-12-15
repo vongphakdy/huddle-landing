@@ -72,6 +72,9 @@ main {
   .socials a:hover {
     cursor: pointer; }
 
+.hide {
+  display: none; }
+
 @media screen and (min-width: 813px) {
   body {
     background: #674baf url("../images/bg-desktop.svg") no-repeat fixed;
