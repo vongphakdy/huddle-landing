@@ -20,7 +20,7 @@ h1 {
   font-weight: 600; }
 
 p {
-  line-height: 1.6;
+  line-height: 1.8;
   margin-top: 1rem; }
 
 a {
@@ -42,8 +42,8 @@ header {
 main {
   margin: 3.8rem auto 4.5rem auto; }
   main img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
     margin-bottom: 3.8rem; }
 
 .register {
@@ -71,5 +71,49 @@ main {
   font-size: 20px; }
   .socials a:hover {
     cursor: pointer; }
+
+@media screen and (min-width: 768px) {
+  body {
+    background: #674baf url("../images/bg-desktop.svg") no-repeat fixed;
+    background-size: contain;
+    font-size: 16px; }
+
+  .container {
+    margin: auto;
+    width: 90%; }
+
+  header {
+    text-align: left;
+    width: 100%;
+    margin-top: 4rem; }
+    header .logo {
+      width: 215px; }
+
+  main {
+    display: grid;
+    grid-template: "mock blurb";
+    grid-template-columns: auto 40%;
+    grid-gap: 3.6em;
+    margin: 5rem auto 1rem auto;
+    text-align: left; }
+
+  .content-left {
+    grid-area: mock; }
+    .content-left img {
+      margin-bottom: 0; }
+
+  .content-right {
+    grid-area: blurb;
+    padding-top: 3em; }
+
+  h1 {
+    font-size: 2.6em; }
+
+  p {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.7); }
+
+  .socials {
+    text-align: right; } }
 
 /*# sourceMappingURL=main.css.map */
